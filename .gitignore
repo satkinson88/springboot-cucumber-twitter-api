@@ -1,0 +1,9 @@
+#config
+.idea/
+*.iml
+
+#build
+target/
+
+#misc
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "edit_history_tweet_ids": [
+        "${idhistoryref}"
+      ],
+      "id": "${idref}",
+      "text": "${textref}"
+    }
+  ]
+}
