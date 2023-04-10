@@ -17,4 +17,5 @@ Sample framework using springboot with cucumber to test the twitter api
 
 ### Running Tests
 * Set the profile used for test execution in the application.properties file e.g. `spring.profiles.active=test`
-* Set the bearer authentication token as a system property in -Dtoken= and choose your cucumber tag -Dcucumber.options= when executing the tests: `mvn clean test -Dcucumber.options="--tag @allTests" -Dtoken=""`
+* Alternatively you can set the profile in the system properties via the vm options or maven run commands with `-Dspring.profiles.active=test`
+* Set the bearer authentication token as a system property in -Dtoken= and choose your cucumber tag -Dcucumber.options= when executing the tests: `mvn clean test -Dcucumber.options="--tag @allTests" -Dtoken="" -Dspring.profiles.active=test`
